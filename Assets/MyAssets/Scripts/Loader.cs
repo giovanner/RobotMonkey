@@ -1,0 +1,34 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Loader : MonoBehaviour {
+
+    public GameObject gameManager;          //GameManager prefab to instantiate.
+    public GameObject soundManager;         //SoundManager prefab to instantiate.
+    public GameObject saveManager;         //SoundManager prefab to instantiate.
+    public GameObject achivementManager;         //SoundManager prefab to instantiate.
+
+    void Awake()
+    {
+        //Check if a GameManager has already been assigned to static variable GameManager.instance or if it's still null
+        if (GameManager.instance == null)
+
+            //Instantiate gameManager prefab
+            Instantiate(gameManager);
+
+        if (SoundManager.instance == null)
+
+            //Instantiate SoundManager prefab
+            Instantiate(soundManager);
+
+        if (SaveManager.instance == null)
+
+            //Instantiate SoundManager prefab
+            Instantiate(saveManager);
+
+        if (AchievementManager.instance == null)
+
+            //Instantiate SoundManager prefab
+            Instantiate(achivementManager);
+    }
+}

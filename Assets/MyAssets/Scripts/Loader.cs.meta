@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a55274659614a4f4892613fbce2c38bb
+timeCreated: 1462199969
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gameManager: {fileID: 128522, guid: b8a5cb3b5463bf54e8ea9fc8fe5dea3e, type: 2}
+  - soundManager: {fileID: 166144, guid: 54734b1da811a2b419322df2525957cd, type: 2}
+  - saveManager: {fileID: 149318, guid: b9fe37ef771bf5043bde9ee86b8afd9e, type: 2}
+  - achivementManager: {fileID: 185770, guid: 062b14518846405429e8f084f5d9bcd8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

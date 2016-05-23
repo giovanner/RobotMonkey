@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a02b1cced989c86479ff14c1c9f99a4a
+timeCreated: 1462200076
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player1: {fileID: 114682, guid: 691dc97429b6b6145ad819cc1af9aaeb, type: 2}
+  - player2: {fileID: 133716, guid: 54db50318f46c1049b5977e02bf9b79e, type: 2}
+  - end1: {instanceID: 0}
+  - end2: {instanceID: 0}
+  - start1: {instanceID: 0}
+  - start2: {instanceID: 0}
+  - camera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
